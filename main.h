@@ -23,7 +23,7 @@
 #define S_SHORT 1
 
 /*Prototybe for _printf file*/
-void print_buffer(char buffer[], int *buff_ind);
+/*void print_buffer(char buffer[], int *buff_ind);*/
 
 /**
 * struct fmt - Struct opration.
