@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * handle_print - A function that Prints an argument based on the type.
  * @fmt: Formatted string in which to print the arguments.
@@ -10,9 +9,8 @@
  * @flags: Calculates active flags.
  * @precision: Precision specification.
  * @size: Size specifier...
- * Return: (1) or (2).
+ * Return: (1) or (2);
  */
-
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
 	int flags, int width, int precision, int size)
 {
