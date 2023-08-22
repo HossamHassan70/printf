@@ -22,6 +22,7 @@ int print_unsigned(va_list types, char buffer[],
 
 	if (num == 0)
 		buffer[i--] = '0';
+
 	buffer[BUFF_SIZE - 1] = '\0';
 	while (num > 0)
 	{
@@ -59,6 +60,7 @@ int print_octal(va_list types, char buffer[],
 
 	if (num == 0)
 		buffer[i--] = '0';
+
 	buffer[BUFF_SIZE - 1] = '\0';
 	while (num > 0)
 	{
@@ -92,7 +94,7 @@ int print_hexadecimal(va_list types, char buffer[],
 		flags, 'x', width, precision, size));
 }
 
-/*============= PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL ===========*/
+/*========== PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL ===========*/
 /**
 * print_hexa_upper - A function that prints an unsigned
 *	number in upper hexadecimal notation.

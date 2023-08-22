@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x11. C - printf team project
 
 Group Project:                                                                      
@@ -7,6 +8,15 @@ Group Project:
 Write a function that produces output according to a format.                        
                                                                                     
                                                                                     
+=======
+This is readme file for 0x11. C - printf task
+
+
+0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm
+ a Spur for life                                                                    
+Write a function that produces output according to a format.                                                                                         
+           
+>>>>>>> 6640b8aa70702efe4d7fbb4ed0dce9fb6b6b93d3
 1. Education is when you read the fine print. Experience is what you get if you don'
 t                                                                                   
 Handle the following conversion specifiers:
@@ -32,7 +42,11 @@ Handle the following flag characters for non-custom conversion specifiers:
                                                                                     
 8. Sarcasm is lost in print                                                         
 Handle the following length modifiers for non-custom conversion specifiers:         
+<<<<<<< HEAD
                                                                                     
+=======
+          
+>>>>>>> 6640b8aa70702efe4d7fbb4ed0dce9fb6b6b93d3
 l                                                                                   
 h                                                                                   
 Conversion specifiers to handle: d, i, u, o, x, X                                   
@@ -59,4 +73,8 @@ ring
 Handle the following custom conversion specifier:                                   
                                                                                     
 15. *                                                                               
+<<<<<<< HEAD
 All the above options work well together. 
+=======
+All the above options work well together.
+>>>>>>> 6640b8aa70702efe4d7fbb4ed0dce9fb6b6b93d3

@@ -27,8 +27,13 @@ int _printf(const char *format, ...)
 			if (buff_ind == BUFF_SIZE)
 			{
 				print_buffer(buffer, &buff_ind);
+<<<<<<< HEAD
+			/* write (1, &format[i], 1);*/
+			printed_chars++;
+=======
 				printed_chars++;
 			}
+>>>>>>> f1120a09c83034f765f9e073d79e865ea2676ed8
 		}
 		else	/*Check condition if false*/
 		{
@@ -42,12 +47,13 @@ int _printf(const char *format, ...)
 				flags, width, precision, size);
 			if (printed == -1)
 				return (-1);
-
 			printed_chars += printed;
 		}
 	}
 	print_buffer(buffer, &buff_ind);
+
 	va_end(list);
+
 	return (printed_chars);
 }
 
