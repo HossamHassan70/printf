@@ -3,6 +3,7 @@
 /**
  * is_printable - A function that Evaluates if a char is printable.
  * @c: Char to be evaluated.
+ *
  * Return: (1) if c is printable, (0) otherwise.
  */
 int is_printable(char c)
@@ -20,7 +21,6 @@ int is_printable(char c)
  * @i: Index at which to start appending.
  * Return: Always (3)
  */
-
 int append_hexa_code(char ascii_code, char buffer[], int i)
 {
 	char map_to[] = "0123456789ABCDEF";
