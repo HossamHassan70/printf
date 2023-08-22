@@ -1,5 +1,7 @@
 #include "main.h"
 
+void print_buffer(char buffer[], int *buff_ind);
+
 /**
 * _printf - A function that simulates Printf function.
 * @format: A format.
@@ -24,7 +26,8 @@ int _printf(const char *format, ...)
 			buffer[buff_ind++] = format[i];
 			if (buff_ind == BUFF_SIZE)
 				print_buffer(buffer, &buff_ind);
-				printed_chars++;
+			/* write (1, &format[i], 1);*/
+			printed_chars++;
 		}
 		else	/*Check condition if false*/
 		{
@@ -38,12 +41,13 @@ int _printf(const char *format, ...)
 				flags, width, precision, size);
 			if (printed == -1)
 				return (-1);
-
 			printed_chars += printed;
 		}
 	}
 	print_buffer(buffer, &buff_ind);
+
 	va_end(list);
+
 	return (printed_chars);
 }
 

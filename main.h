@@ -4,8 +4,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <limits.h>
-#include <stdlib.h>
+
 /*Add main libraries*/
 
 #define UNUSED(x) (void)(x)
@@ -21,9 +20,6 @@
 /* === SIZES ===*/
 #define S_LONG 2
 #define S_SHORT 1
-
-/*Prototybe for _printf file*/
-void print_buffer(char buffer[], int *buff_ind);
 
 /**
 * struct fmt - Struct opration.
@@ -107,6 +103,7 @@ int write_num(int ind, char bff[], int flags, int width, int precision,
 	int length, char padd, char extra_c);
 int write_pointer(char buffer[], int ind, int length,
 	int width, int flags, char padd, char extra_c, int padd_start);
+
 int write_unsgnd(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
