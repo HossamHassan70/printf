@@ -1,6 +1,6 @@
 #include "main.h"
 
-/********** HANDLE **********/
+/******** HANDLE ********/
 /**
  * handle_write_char - A function that Prints a string.
  * @c: char types.
@@ -44,7 +44,7 @@ int handle_write_char(char c, char buffer[],
 	return (write(1, &buffer[0], 1));
 }
 
-/********** WRITE NUMBER ************/
+/******** WRITE NUMBER **********/
 /**
  * write_number - That number Prints a string.
  * @is_negative: List of arguments.
@@ -78,6 +78,7 @@ int write_number(int is_negative, int ind, char buffer[],
 		length, padd, extra_ch));
 }
 
+/********** WRITE NUMBERS **********/
 /**
  * write_num -A function that Writes a number using a buffer.
  * @ind: Index at which the number starts on the buffer.

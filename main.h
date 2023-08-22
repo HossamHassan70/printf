@@ -21,12 +21,6 @@
 #define S_LONG 2
 #define S_SHORT 1
 
-<<<<<<< HEAD
-=======
-/*Prototybe for _printf file*/
-/*void print_buffer(char buffer[], int *buff_ind);*/
-
->>>>>>> f1120a09c83034f765f9e073d79e865ea2676ed8
 /**
 * struct fmt - Struct opration.
 * @fmt: The format.
